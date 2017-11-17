@@ -1,4 +1,4 @@
-public class Rentangle {
+public class Rectangle {
   public int length;
   public int width;
 
@@ -9,10 +9,9 @@ public class Rentangle {
 
   public int getArea() {
     return length * width;
-
   }
 
-  public int get Perimeter() {
+  public int getPerimeter() {
     return 2 * (length + width);
   }
 }
